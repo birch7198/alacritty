@@ -1,0 +1,26 @@
+live_config_reload = true
+
+import = [
+  # uncomment the flavour you want below:
+  #"~/.config/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[font]
+size = 15.0
+
+[window]
+decorations = "Full"
+dynamic_padding = false
+opacity = 0.95
+startup_mode = "Maximized"
+
+[window.padding]
+x = 18
+y = 16
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
